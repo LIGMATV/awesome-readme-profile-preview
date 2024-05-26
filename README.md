@@ -7,6 +7,10 @@ A realtime markdown preview of Awesome README Profiles by categories.
 
 </div>
 
+| ![Screenshot Capture - 2024-05-26 - 15-52-15](https://github.com/LIGMATV/awesome-readme-profile-preview/assets/143163098/49757c2a-772b-4c40-b409-fc0c0b9101bd) |
+|:--:|
+| [Example](https://ligmatv.is-a.dev/awesome-readme-profile-preview/#/a-little-bit-of-everything/LIGMATV) of Awesome README Profile Preview |
+
 > Inspired by [awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme). since the last [merged pull request](https://github.com/abhisheknaiidu/awesome-github-profile-readme/pulls?q=is%3Apr+is%3Amerged) in 2022, I start trying to create the new awesome-readmes project with realtime preview, and the same categories like on awesome-github-profile-readme.
 
 #### Contents:
