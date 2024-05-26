@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>Awesome README Profile Preview</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/LIGMATV/docsify-theme-github/github.css">
+
+  <style>
+:root {
+    --theme-color: #0969da;
+}
+
+/* Fix `close` style on mobile */
+@media screen and (max-width: 768px) {
+
+    /* Fix behavior for when sidebar should be open */
+    body .sidebar {
+        transform: translateX(270px);
+    }
+
+    .sidebar-toggle {
+        background-color: rgba(255, 255, 255, 0.8);
+        transition: 1s background-color;
+        width: auto;
+        padding: 10px;
+    }
+
+    .markdown-section {
+        margin: 16px;
+    }
+
+    /* Fix behavior for when sidebar should be closed */
+    body.close .sidebar {
+        transform: translateX(0);
+    }
+
+    body.close .content {
+        transform: translateX(0px);
+    }
+
+    body.close .sidebar-toggle {
+        background-color: transparent;
+        width: auto;
+    }
+}
+
+body.close .sidebar {
+    transform: translate(-350px);
+}
+
+body,
+.anchor span,
+.markdown-section em,
+.markdown-section strong {
+    color: #000;
+}
+
+body {
+    font-size: 14px;
+    background-color: #F9F9F9 !important;
+}
+
+.content {
+    left: 0;
+}
+
+.markdown-section {
+    background-color: #ffffff;
+    border: 1px solid #d0d7de;
+    padding: 28px;
+    border-radius: 8px;
+    max-width: 850px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.markdown-section h1:first-child {
+    font-size: 2rem;
+}
+
+.markdown-section h2 {
+    font-size: 1.5em;
+}
+
+.markdown-section h3 {
+    font-size: 1.25em;
+}
+
+.markdown-section h4 {
+    font-size: 1em;
+}
+
+.markdown-section h5,
+.markdown-section h6 {
+    font-size: .875em;
+    font-weight: 500;
+}
+
+.markdown-section h1,
+.markdown-section h2 {
+    border-bottom: 1px solid #d0d7de;
+    padding-bottom: .3em;
+}
+
+.markdown-section a>span:hover:before {
+    margin-left: -28px;
+    padding-right: 12px;
+    mask-repeat: no-repeat;
+}
+
+.markdown-section>p:first-child,
+.markdown-section>p:first-child a {
+    font-family: monospace;
+    font-size: 0.75rem;
+    color: #1f2328;
+    text-decoration: none;
+    word-spacing: -5px;
+}
+
+.markdown-section>p:first-child a:hover {
+    color: var(--theme-color);
+}
+
+.markdown-section>p:first-child::after {
+    content: " / README.md";
+}
+
+.sidebar {
+    border-right: none;
+    background: transparent;
+    width: 350px;
+    padding: 20px 0 60px 0;
+}
+
+.sidebar .sidebar-nav {
+    width: 270px;
+    background-color: #ffffffda;
+    backdrop-filter: blur(5px);
+    border: 1px solid #d0d7de;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, .1), 0 2px 6px rgba(0, 0, 0, .08);
+    padding: 16px 6px 16px 23px;
+    margin-left: 18px;
+    border-radius: 8px;
+}
+
+.sidebar ul li.active>a::after,
+.sidebar-nav>ul>li>ul>li[class].collapse>a::after {
+    left: 14px;
+}
+  </style>
+</head>
+<body class="close">
+  <div id="app"></div>
+</body>
+    <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
