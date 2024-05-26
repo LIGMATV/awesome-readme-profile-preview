@@ -1,11 +1,9 @@
-<div align="center">
+<img src="https://cdn.jsdelivr.net/gh/LIGMATV/awesome-readme-profile-preview@main/logo.svg" align="right" width="150">
 
 # Awesome README Profile Preview
 **Powered by [Docsify.js](https://docsify.js.org/#/) and [docsify-theme-github](https://github.com/LIGMATV/docsify-theme-github)**
 
 A realtime markdown preview of Awesome README Profiles by categories.
-
-</div>
 
 | ![Screenshot Capture - 2024-05-26 - 15-52-15](https://github.com/LIGMATV/awesome-readme-profile-preview/assets/143163098/49757c2a-772b-4c40-b409-fc0c0b9101bd) |
 |:--:|
