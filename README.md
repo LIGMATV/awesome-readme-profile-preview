@@ -42,6 +42,8 @@ A realtime markdown preview of Awesome README Profiles by categories.
 
 ### Dynamic Realtime 💫
 
+- [jgphilpott](https://github.com/jgphilpott)
+
 ### A Little Bit of Everything 😃
 
 - [LIGMATV](a-little-bit-of-everything/LIGMATV.md)
